@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [newsuite]" parallel="methods">
+  <test thread-count="3" name="newtest(failed)" parallel="methods">
+    <parameter name="Name" value="Raja"/>
+    <classes>
+      <class name="testNg.Paralleltesting">
+        <methods>
+          <include name="openBing"/>
+          <include name="openYahoo"/>
+          <include name="openGoogle"/>
+        </methods>
+      </class> <!-- testNg.Paralleltesting -->
+    </classes>
+  </test> <!-- newtest(failed) -->
+</suite> <!-- Failed suite [newsuite] -->

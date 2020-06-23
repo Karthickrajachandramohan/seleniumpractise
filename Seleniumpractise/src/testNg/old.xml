@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "newsuite" parallel = "methods" thread-count = "3">
+<test name  = "newtest">
+<parameter name = "Name"  value = "Raja"></parameter>
+<classes>
+<!-- <class name = "testNg.Parameterizedexample" ></class>
+ --> 
+ <class name = "testNg.Paralleltesting"></class>
+
+</classes>
+</test>
+</suite>

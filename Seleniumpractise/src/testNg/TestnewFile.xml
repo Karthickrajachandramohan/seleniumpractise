@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "Test Suite"  verbose = "2" parallel = "methods" thread-count = "3">
+
+<test name = "Test Cases">
+<groups>
+<run>
+<include name = "Apple"  ></include>
+<include name = "vivo"  ></include>
+</run>
+
+</groups>
+
+<classes>
+
+<!-- <class name = "testNg.Dependsontest"></class>
+<class name = "testNg.Firstcase"></class>
+<class name = "testNg.Opensearch"></class>
+<class name = "testNg.Prioritynew"></class>
+<class name = "testNg.Toskipatestcase"></class> -->
+<!-- <class name = "testNg.Groupingexample"></class>
+ -->
+ 
+ <class name = "testNg.Paralleltesting"></class>
+
+</classes>
+
+
+
+</test>
+
+
+
+
+
+</suite>
